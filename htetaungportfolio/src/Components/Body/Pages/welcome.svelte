@@ -1,5 +1,6 @@
 <script>
     import Textfield from "./Components/textfield.svelte";
+    import CustomButton from "./Components/custom_button.svelte";
 
     export let name;
 </script>
@@ -13,7 +14,8 @@
         How may I address you?
         </h4>
         <Textfield placeholder="Please type here" maxlength=10 width=200 height=200/>
-        <button>Proceed</button>
+        <br>
+        <CustomButton content="-- Enter --"/>
     </div>
 </main>
 
